@@ -1,0 +1,55 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100%; 
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+span {
+    
+}
+
+img {
+    
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+   
+    text-align: center;
+    align-items: center;
+    font-size: 32px; 
+    font-family: serif;
+    color: rgb(17, 247, 13);
+    
+}
+
+.buttons-container {
+  
+  background-color: rgb(18, 248, 10);
+  padding-right: 0%;
+  text-align: center;
+  align-items: center;
+}
+  
+.big-container {
+    
+    padding-right: 0%;
+    text-align: left;
+    align-items: left;
+    color: aliceblue;
+    font-family: serif;
+    font-size: 25px;
+}
+
+p {
+    
+    display: flex;
+    text-align: center;
+    font-family: serif;
+    font-size: 14px;
+}
