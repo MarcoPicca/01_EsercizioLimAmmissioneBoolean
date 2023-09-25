@@ -7,45 +7,99 @@ body {
     align-items: center;
 }
 
-img {
+#container-transparent {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 8%;
+    margin-top: 30px;
+    margin-left: 360px;
+    margin-right: 220px;
+    margin-bottom: 400px;
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 20px;
     
-    margin-top: 40px;
+}
+
+img {
+    margin-bottom: 5px;
+    height: 30%;
+    width: 30%;
     text-align: center;
     align-items: center;
 }
 
 h2 {
-   
+    margin-bottom: 3px;
     text-align: center;
     align-items: center;
-    font-size: 32px; 
+    font-size: 34px; 
     font-family: serif;
     color: rgb(17, 247, 13);
     
 }
 
-.buttons-container {
-  
+#buttons-container {
+  border: 5px solid rgb(18, 248, 10);
   background-color: rgb(18, 248, 10);
   padding-right: 0%;
   text-align: center;
   align-items: center;
 }
   
-.big-container {
-    
-    padding-right: 0%;
+#big-container {
+    margin-top: 10px;
     text-align: left;
-    align-items: left;
     color: aliceblue;
     font-family: serif;
-    font-size: 25px;
+    font-size: 28px;
 }
 
-p {
-    
+.punto-ritrovo {
+    margin-top: 8px;
     display: flex;
     text-align: center;
     font-family: serif;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+.stato-carica {
+    margin-top: 5px;
+    display: flex;
+    text-align: center;
+    font-family: serif;
+    font-size: 18px;
+}
+
+#carica-mono1 {
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: rgb(240, 243, 112);
+    height: 20px;
+    width: 310px;
+    text-align: left;
+    border: 1px solid rgb(240, 243, 112);
+}
+
+#carica-mono2 {
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: rgb(59, 195, 28);
+    height: 20px;
+    width: 600px;
+    text-align: left;
+    border: 1px solid rgb(59, 195, 28);
+}
+
+#carica-mono3 {
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: rgb(216, 64, 64);
+    height: 20px;
+    width: 140px;
+    text-align: left;
+    border: 1px solid rgb(226, 29, 29);
 }
